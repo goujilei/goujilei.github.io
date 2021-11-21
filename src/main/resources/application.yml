@@ -8,9 +8,9 @@ spring:
   datasource:
     type: com.mchange.v2.c3p0.ComboPooledDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/citiccrm?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://127.0.0.1:3306/crm?useUnicode=true&characterEncoding=utf8
     username: root
-    password: 123456
+    password: gjl
 
   #freemarker
   freemarker:
