@@ -1,0 +1,27 @@
+.sxz_news_box2{
+	width: 1200px;
+	height: 123px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	border-bottom:1px solid #777A78 ;
+}
+.sxz_news_box2>div{
+	width: 370px;
+	padding-left:10px ;
+}
+.sxz_news_box2>div>a{
+	display: block;
+	text-decoration: none;
+	color: #777A78;
+	line-height: 30px;
+	letter-spacing: 0.2rem;
+}
+.sxz_news_box2>div>a:hover{
+	color: #201AD3;
+}
+.sxz_news_box2>div>span{
+	color: #777A78;
+	font-size: 0.6rem;
+	float: right;
+}

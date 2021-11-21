@@ -1,0 +1,74 @@
+.sxz_teachers{
+	width: 1200px;
+	height: 441px;
+	margin: 0 auto;
+	position: relative;
+}
+.sxz_teachers>ul{
+	width: 1200px;
+	display: flex;
+	height: 50px;	
+	border-bottom: 1px solid #c6cac7;
+}
+.sxz_teachers>ul>li{
+	flex: 1;
+	float: left;
+	list-style: none;
+	text-align: center; 
+}
+.sxz_teachers>ul>li>a{
+	text-decoration:none;
+	color: #757575;
+	letter-spacing: 2px;
+	padding: 0 10px;
+	padding-bottom: 14px;
+	line-height: 50px;
+}
+.sxz_teachers>ul>li>a:hover{
+	border-bottom:1px solid #000000;
+}
+.sxz_teachers hr{
+	width: 100%;
+	margin-top: 1px;
+	margin: 15px auto;
+}
+.sxz_teachers>ul>li>.pics{
+	position: absolute;
+	top: 40px;
+	left: 0;
+}
+.sxz_teachers>ul>li>.pics>ul{
+	width:1200px;
+	height:302px;
+	margin-top: 30px ;
+	display: flex;
+	justify-content: space-around;
+}
+.sxz_teachers>ul>li>.pics>ul>li{
+	height: 302px;
+	width: 230px;
+	border-radius: 5px;
+	list-style: none;
+	justify-content: space-around;
+	color:#FFFFFF;
+	display: flex;
+}
+.sxz_teachers>ul>li>.pics>ul>li>div{
+	padding: 0px 35px;
+	margin:auto;/*绝对定位 position:absolute; top:50%; left:0;transform:translateY(-50%)*/
+  display: none;
+	/* opacity: 0;/* 整个元素透明度 包括背景,文字*/
+	/* transition: 1s; */ 
+}
+.sxz_teachers>ul>li>.pics>ul>li:hover>div{
+	/* opacity: 1; */
+	display: block;
+}
+.sxz_teachers>ul>li>.pics>ul>li h5{ 
+	font-size: 1.2rem;
+	text-align: center;
+}
+.sxz_teachers>ul>li>.pics>ul>li p{
+	text-align: left;
+}
+

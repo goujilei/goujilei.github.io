@@ -1,0 +1,37 @@
+.sxz_nav{
+	width: 1200px;
+	height:60px;
+	margin:0 auto;
+	display: flex;
+}
+.sxz_nav>.left{
+	width: 245px;
+	background: #ea303d;
+	line-height: 60px;/* line-height=行高是文字垂直居中 */
+	text-align: center;/* 文字水平居中 */
+	letter-spacing: 10px;/* 字间距 */
+	color: #ffffff;
+	font-size: 1.2rem;
+}
+.sxz_nav>.right{
+	flex=1;
+}
+.sxz_nav>.right>ul>li{
+	list-style: none; /* 去掉圆点*/
+	float: left;
+	position: relative;/*相对定位,在这没有意义,为了让绝对定位(absolute参照)*/
+}
+.sxz_nav>.right>ul>li>a{
+	color: #000000;
+  text-decoration:none;/*去掉下划线*/
+	line-height: 60px;
+	padding:0 20px;
+}
+.sxz_nav>.right>ul>li>a:hover{
+	color:#ff0000;
+}
+.sxz_nav>.right>ul>li>img{
+  position: absolute;/*绝对定位*/
+	top: 23px;
+	right:5px;
+}

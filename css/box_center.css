@@ -1,0 +1,18 @@
+.sxz_box_center{
+	 width: 1200px;
+	 height: 42px;
+	 margin: 0 auto;
+	 margin-top:55px;
+	 display: flex;
+	 align-items: center;/*垂直对齐*/
+	 justify-content: center;/*水平对齐*/
+}
+.sxz_box_center>img{
+	width: 30px;
+	height: 16px;
+}
+.sxz_box_center>h3{
+	font-size: 2rem;
+	margin: 0 20px;
+	letter-spacing: 0.5rem;
+}
